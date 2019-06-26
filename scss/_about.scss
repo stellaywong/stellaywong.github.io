@@ -7,6 +7,38 @@
 }
 
 .img-stella {
-  max-width: 1%;
+  max-width: 80%;
   height: auto;
+}
+
+
+.devicon {
+  // font-size: 5rem;
+  width: 60px;
+  height: 60px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+// .devicon:hover .onhover {
+//   visibility: visible;
+// }
+
+// .onhover {
+//   visibility: hidden;
+// }
+
+// .onhover:hover {
+//   visibility: visible;
+// }
+
+.skills {
+  width: 30%;
+  height: 60px;
+  margin: 0;
 }
