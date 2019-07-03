@@ -167,7 +167,8 @@
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 2rem;
+  padding-bottom: 10rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
@@ -186,6 +187,10 @@
   height: 60px;
 }
 
+.devicon:before {
+  font-size: 80px;
+}
+
 .skills-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -196,14 +201,20 @@
   flex-wrap: wrap;
 }
 
+.onhover {
+  color: white;
+  width: 100%;
+  height: auto;
+}
+
 .skills {
   width: 30%;
   height: 60px;
   margin: 0;
 }
 
-.projects-section {
-  padding: 10rem 0;
+.projects {
+  color: black;
 }
 
 .projects-section .featured-text {
@@ -253,10 +264,6 @@
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
-}
-
-.contact-section {
-  padding: 5rem 0 0;
 }
 
 .contact-section .card {
