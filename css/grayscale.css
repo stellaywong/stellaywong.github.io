@@ -207,6 +207,11 @@
   height: auto;
 }
 
+.onhover a:hover {
+  color: #3faae9 !important;
+  font-weight: bold;
+}
+
 .skills {
   width: 30%;
   height: 60px;

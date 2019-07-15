@@ -31,6 +31,8 @@
   
 }
 
+
+
 // .devicon:hover .onhover {
 //   visibility: visible;
 // }
@@ -40,6 +42,11 @@
   width: 100%;
   height: auto;
   // visibility: hidden;
+}
+
+.onhover a:hover {
+  color: rgba(63,170,233,1) !important;
+  font-weight: bold;
 }
 
 // .onhover:hover {
