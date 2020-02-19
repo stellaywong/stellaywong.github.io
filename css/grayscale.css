@@ -77,7 +77,7 @@
     color: red;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #b39700;
+    color:crimson;
   }
   #mainNav.navbar-shrink .nav-link.active {
     color: red;
@@ -154,16 +154,16 @@
 }
 
 .btn-primary:hover {
-  background-color: #ccac00;
+  background-color: crimson;
 }
 
 .btn-primary:focus {
-  background-color: #ccac00;
+  background-color: crimson;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #b39700 !important;
+  background-color: crimson !important;
 }
 
 .about-section {
@@ -331,7 +331,7 @@ a {
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #998100;
+  color: crimson;
 }
 
 .bg-black {
